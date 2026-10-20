@@ -1,0 +1,32 @@
+# Go
+/bin/
+/dist/
+/vendor/
+*.exe
+*.test
+*.out
+coverage.out
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and agent
+/.idea/
+/.vscode/
+/.cursor/
+/.history/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs and caches
+*.log
+*.cache
